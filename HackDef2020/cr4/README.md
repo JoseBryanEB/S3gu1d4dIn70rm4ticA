@@ -22,4 +22,4 @@ El programa agarra dos caracteres de la cadena encriptada y recorre todo ascci u
 con la flag desencriptada, es facil de ver que se usa el segundo for del programa para encontrar 
 el caracter que hiciera que fuera acompletando la candena "flag"
 
-<img src = ""https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/cr4/result.png"/>
+<img src = "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/cr4/result.png"/>
