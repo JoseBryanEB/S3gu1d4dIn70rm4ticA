@@ -14,6 +14,7 @@ la cual pasaba la cadena por otra funcion llamada "magic" pero cuando mandaban
 hacer el decode no se ocupaba saltandose un paso
 
 "decode.py"
+
 import base64
 def magic(cryptic):
     return ''.join(c.lower() if c.isupper() else c.upper() if c.islower() else c for c in cryptic)
@@ -23,4 +24,4 @@ print(base64.b64decode(magic(flag))))
 de esta forma usando la flag que nos daba el servicio y reescribiendo la funcion decode
 sale la flag en "ascii"
 
-<img src = "result.png"/>
+<img src = "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/b64/result.png"/>
