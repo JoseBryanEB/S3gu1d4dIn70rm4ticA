@@ -16,7 +16,9 @@ vimos dos opciones
    componen la flag encryptada 
 
 code :
-
+<code>
+print("Hell World");
+</code> 
 
 El programa agarra dos caracteres de la cadena encriptada y recorre todo ascci usando una cadena 
 con la flag desencriptada, es facil de ver que se usa el segundo for del programa para encontrar 
