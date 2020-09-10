@@ -9,9 +9,9 @@ ya que lo toma de la pc al ejecurse, hubo un trabajo extra que hacer
 encontrar el nombre del usuario que creo el programa, afortunadamente todo eso lo guarda .net 
 haciendo un
  
-<code> strings jax</code> 
+<code> strings jax.exe </code> 
 
-se contro la cadena el workpace donde se desarrollo la aplicaión, pasando los parametros correcto y corrigiendo el programa 
+se encontro la cadena del workpace donde se desarrollo la aplicaión, pasando los parametros correctos y corrigiendo el programa 
 sale la flag
 
-<img src= "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/jax/result.png" / >
+<img src= "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/jax/result.png" />
