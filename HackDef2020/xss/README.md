@@ -8,5 +8,5 @@ un keylogger esperamos que el usuario se conecte y listo
 el problema es que el keylogger agrego algunos caracteres de la distribucion de teclado americana (US)
 cambiando los $ por _ 
 
-<img src="https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/tree/master/HackDef2020/xss/result.png"/>
+<img src="https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/xss/result.png"/>
 

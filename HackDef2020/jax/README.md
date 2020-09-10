@@ -7,9 +7,11 @@ ususario de la pc, y el error selectIndexUndefined o sea una overflow de una cad
 y lo encriptaba el resultado de es cadena era la flag pero como el usuario cambiaba de pc en pc 
 ya que lo toma de la pc al ejecurse, hubo un trabajo extra que hacer
 encontrar el nombre del usuario que creo el programa, afortunadamente todo eso lo guarda .net 
-haciendo un 
+haciendo un
+ 
 <code> strings jax</code> 
+
 se contro la cadena el workpace donde se desarrollo la aplicaión, pasando los parametros correcto y corrigiendo el programa 
 sale la flag
 
-<img src= "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/tree/master/HackDef2020/jax/result.png" / >
+<img src= "https://github.com/JoseBryanEB/S3gu1d4dIn70rm4ticA/blob/master/HackDef2020/jax/result.png" / >
