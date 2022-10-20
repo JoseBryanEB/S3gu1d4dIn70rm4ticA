@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function callAdd() {
+   const add = Module.cwrap('me',
+       'string',
+       []);
+  
+   const result = me();
+   console.log(`Result: ${result}`);
+ }
+ callAdd()
+ //ETSCTF_3ca84f0cc1de9ca587556571af86542b
+    </script>
+    <script src="cwrapme.wasm"></script>
+    <p>Hola</p>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,160 @@
+63h ; c       
+.data:000055DDAE001021                 db    0
+.data:000055DDAE001022                 db    0
+.data:000055DDAE001023                 db    0
+.data:000055DDAE001024                 db  70h ; p
+.data:000055DDAE001025                 db    0
+.data:000055DDAE001026                 db    0
+.data:000055DDAE001027                 db    0
+.data:000055DDAE001028                 db  71h ; q
+.data:000055DDAE001029                 db    0
+.data:000055DDAE00102A                 db    0
+.data:000055DDAE00102B                 db    0
+.data:000055DDAE00102C                 db  61h ; a
+.data:000055DDAE00102D                 db    0
+.data:000055DDAE00102E                 db    0
+.data:000055DDAE00102F                 db    0
+.data:000055DDAE001030                 db  70h ; p
+.data:000055DDAE001031                 db    0
+.data:000055DDAE001032                 db    0
+.data:000055DDAE001033                 db    0
+.data:000055DDAE001034                 db  62h ; b
+.data:000055DDAE001035                 db    0
+.data:000055DDAE001036                 db    0
+.data:000055DDAE001037                 db    0
+.data:000055DDAE001038                 db  7Dh ; }
+.data:000055DDAE001039                 db    0
+.data:000055DDAE00103A                 db    0
+.data:000055DDAE00103B                 db    0
+.data:000055DDAE00103C                 db  7Fh ; 
+.data:000055DDAE00103D                 db    0
+.data:000055DDAE00103E                 db    0
+.data:000055DDAE00103F                 db    0
+.data:000055DDAE001040                 db  55h ; U
+.data:000055DDAE001041                 db    0
+.data:000055DDAE001042                 db    0
+.data:000055DDAE001043                 db    0
+.data:000055DDAE001044                 db  4Fh ; O
+.data:000055DDAE001045                 db    0
+.data:000055DDAE001046                 db    0
+.data:000055DDAE001047                 db    0
+.data:000055DDAE001048                 db  50h ; P
+.data:000055DDAE001049                 db    0
+.data:000055DDAE00104A                 db    0
+.data:000055DDAE00104B                 db    0
+.data:000055DDAE00104C                 db  81h
+.data:000055DDAE00104D                 db 0FFh
+.data:000055DDAE00104E                 db 0FFh
+.data:000055DDAE00104F                 db 0FFh
+.data:000055DDAE001050                 db  82h
+.data:000055DDAE001051                 db 0FFh
+.data:000055DDAE001052                 db 0FFh
+.data:000055DDAE001053                 db 0FFh
+.data:000055DDAE001054                 db  4Eh ; N
+.data:000055DDAE001055                 db    0
+.data:000055DDAE001056                 db    0
+.data:000055DDAE001057                 db    0
+.data:000055DDAE001058                 db  55h ; U
+.data:000055DDAE001059                 db    0
+.data:000055DDAE00105A                 db    0
+.data:000055DDAE00105B                 db    0
+.data:000055DDAE00105C                 db  52h ; R
+.data:000055DDAE00105D                 db    0
+.data:000055DDAE00105E                 db    0
+.data:000055DDAE00105F                 db    0
+.data:000055DDAE001060                 db  50h ; P
+.data:000055DDAE001061                 db    0
+.data:000055DDAE001062                 db    0
+.data:000055DDAE001063                 db    0
+.data:000055DDAE001064                 db  82h
+.data:000055DDAE001065                 db 0FFh
+.data:000055DDAE001066                 db 0FFh
+.data:000055DDAE001067                 db 0FFh
+.data:000055DDAE001068                 db  51h ; Q
+.data:000055DDAE001069                 db    0
+.data:000055DDAE00106A                 db    0
+.data:000055DDAE00106B                 db    0
+.data:000055DDAE00106C                 db  80h
+.data:000055DDAE00106D                 db 0FFh
+.data:000055DDAE00106E                 db 0FFh
+.data:000055DDAE00106F                 db 0FFh
+.data:000055DDAE001070                 db  55h ; U
+.data:000055DDAE001071                 db    0
+.data:000055DDAE001072                 db    0
+.data:000055DDAE001073                 db    0
+.data:000055DDAE001074                 db  4Ch ; L
+.data:000055DDAE001075                 db    0
+.data:000055DDAE001076                 db    0
+.data:000055DDAE001077                 db    0
+.data:000055DDAE001078                 db  4Ch ; L
+.data:000055DDAE001079                 db    0
+.data:000055DDAE00107A                 db    0
+.data:000055DDAE00107B                 db    0
+.data:000055DDAE00107C                 db  82h
+.data:000055DDAE00107D                 db 0FFh
+.data:000055DDAE00107E                 db 0FFh
+.data:000055DDAE00107F                 db 0FFh
+.data:000055DDAE001080                 db  4Fh ; O
+.data:000055DDAE001081                 db    0
+.data:000055DDAE001082                 db    0
+.data:000055DDAE001083                 db    0
+.data:000055DDAE001084                 db  82h
+.data:000055DDAE001085                 db 0FFh
+.data:000055DDAE001086                 db 0FFh
+.data:000055DDAE001087                 db 0FFh
+.data:000055DDAE001088                 db  53h ; S
+.data:000055DDAE001089                 db    0
+.data:000055DDAE00108A                 db    0
+.data:000055DDAE00108B                 db    0
+.data:000055DDAE00108C                 db  82h
+.data:000055DDAE00108D                 db 0FFh
+.data:000055DDAE00108E                 db 0FFh
+.data:000055DDAE00108F                 db 0FFh
+.data:000055DDAE001090                 db  7Fh ; 
+.data:000055DDAE001091                 db    0
+.data:000055DDAE001092                 db    0
+.data:000055DDAE001093                 db    0
+.data:000055DDAE001094                 db  57h ; W
+.data:000055DDAE001095                 db    0
+.data:000055DDAE001096                 db    0
+.data:000055DDAE001097                 db    0
+.data:000055DDAE001098                 db  82h
+.data:000055DDAE001099                 db 0FFh
+.data:000055DDAE00109A                 db 0FFh
+.data:000055DDAE00109B                 db 0FFh
+.data:000055DDAE00109C                 db  53h ; S
+.data:000055DDAE00109D                 db    0
+.data:000055DDAE00109E                 db    0
+.data:000055DDAE00109F                 db    0
+.data:000055DDAE0010A0                 db  57h ; W
+.data:000055DDAE0010A1                 db    0
+.data:000055DDAE0010A2                 db    0
+.data:000055DDAE0010A3                 db    0
+.data:000055DDAE0010A4                 db  80h
+.data:000055DDAE0010A5                 db 0FFh
+.data:000055DDAE0010A6                 db 0FFh
+.data:000055DDAE0010A7                 db 0FFh
+.data:000055DDAE0010A8                 db  50h ; P
+.data:000055DDAE0010A9                 db    0
+.data:000055DDAE0010AA                 db    0
+.data:000055DDAE0010AB                 db    0
+.data:000055DDAE0010AC                 db  50h ; P
+.data:000055DDAE0010AD                 db    0
+.data:000055DDAE0010AE                 db    0
+.data:000055DDAE0010AF                 db    0
+.data:000055DDAE0010B0                 db  83h
+.data:000055DDAE0010B1                 db 0FFh
+.data:000055DDAE0010B2                 db 0FFh
+.data:000055DDAE0010B3                 db 0FFh
+.data:000055DDAE0010B4                 db  52h ; R
+.data:000055DDAE0010B5                 db    0
+.data:000055DDAE0010B6                 db    0
+.data:000055DDAE0010B7                 db    0
+.data:000055DDAE0010B8                 db  52h ; R
+.data:000055DDAE0010B9                 db    0
+.data:000055DDAE0010BA                 db    0
+.data:000055DDAE0010BB                 db    0
+.data:000055DDAE0010BC                 db    0
+.data:000055DDAE0010BD                 db    0
+.data:000055DDAE0010BE                 db    0
+.data:000055DDAE0010BF                 db    0

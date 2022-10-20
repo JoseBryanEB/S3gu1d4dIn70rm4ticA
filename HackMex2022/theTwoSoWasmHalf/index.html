@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        fetch('sowasm.wasm').then(response =>
+   response.arrayBuffer()
+ ).then(bytes =>{
+     const buffer = new Uint8Array(bytes);
+     let index =0;
+     let size = buffer.length;
+     let s = "";
+             for (let i = index; i < index + size; ++i)
+                 s += String.fromCharCode(buffer[i]);
+             console.log(s);
+ 
+   WebAssembly.instantiate(bytes, {imports:{puts: function puts (index) {
+   alert(utf8ToString(h, index));
+ }
+ 
+ }})
+ }
+ ).then(results => {
+   // Hacemos algo con el resultado aquí!
+ });
+ console.log("\05\00\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\02\00\00\00\03\00\00\00\d8\08\00\00\00\04\00\00\00\00\00\00\00\00\00\00\01\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\ff\ff\ff\ff\0a\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00p\07\00\00")
+ //ETSCTF_3ca84f0cc1de9ca587556571af86542b
+    </script>
+    <script src="sowasm.wasm"></script>
+    <p>Hola</p>
+</body>
+
+</html>
+
+
+
